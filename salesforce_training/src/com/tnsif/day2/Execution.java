@@ -13,6 +13,7 @@ public class Execution {
 		System.out.println("Enter the Laptop Serial Number : ");
 		obj.setSerialNumber(sc.nextInt());
 		System.out.println("Laptop Details Are : "+obj);
+		sc.close();
 	}
 	
 }
