@@ -11,5 +11,6 @@ public class HelloWorld {
 		b = sc.nextFloat();
 		c=a+b;
 		System.out.println("Sum of " +a+ " and " +b+ " is : " + c);
+		sc.close();
 	}
 }
