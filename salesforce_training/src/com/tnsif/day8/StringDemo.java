@@ -1,4 +1,4 @@
-package com.tnsid.day8;
+package com.tnsif.day8;
 
 public class StringDemo {
 	public static void main(String[] args)
