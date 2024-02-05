@@ -19,7 +19,11 @@ public class StringDemo {
 		String u = s.toUpperCase();
 		System.out.println(l);
 		System.out.println(u);
-		
+		String s3 = "DIVYANSH";
+		System.out.println(s3.compareToIgnoreCase(s));
+		System.out.println(s3.equals(s));
+		System.out.println(s.substring(6));
+		System.out.println(s.substring(1,7));
 	}
 
 }
