@@ -25,6 +25,8 @@ public class StringApplications {
 				System.out.println(s2.hashCode());
 				System.out.println(s3.hashCode());
 				System.out.println(s4.hashCode());
+				//compare to Unicode
+				System.out.println(s1.compareToIgnoreCase("tnsif"));
+				System.out.println(s1.compareToIgnoreCase(s2));
 	}
-
 }
